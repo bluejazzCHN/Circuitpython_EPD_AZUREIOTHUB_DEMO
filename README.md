@@ -1,6 +1,6 @@
 # Circuitpython_EPD_AZUREIOTHUB_DEMO
 
-## Buid weather station online demo to show how to use circuitpython EPD and Azure IOT : 2021 BluejazzCHN, written for Adafruit Industries
+## Buid weather station online demo to show how to use circuitpython EPD and Azure IOT
 
 ### Device:
     * EPS32 S2 wrover mcu
@@ -10,11 +10,8 @@
     * Weather forecast:http://api.caiyunapp.com/  this link use http, not use TLS, please pay an attention.
     * IOT: azure.com  this link us https support TLS meet the requirement of Azure IotHub
 ### Comment:
-    * Connect weather service and IOT service using API, 
-      because adafruit_esp32SPI only one TLS connection. 
-    * if exceed one you will get OSError 23, so in this demo
-      connect weahter service with http, and connect IOT 
-      service with https.
+    * Connect weather service and IOT service using API, because adafruit_esp32SPI only one TLS connection. 
+    * if exceed one you will get OSError 23, so in this demo connect weahter service with http, and connect IOT service with https.
 ### Libs:
     * adafruit_ssd1681 for EPD driver
     * adafruit_esp32spi for adafruit airlift wifi
@@ -33,4 +30,5 @@
       'sleep_time':1800,         # deep sleep time in second
       }
  ```
-    
+ ## Contact
+      @2021.02 songjiangzhang@hotmail.com, written for Adafruit Industries
