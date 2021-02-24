@@ -1,5 +1,4 @@
 # Circuitpython_EPD_AZUREIOTHUB_DEMO
-====================================
 
 ## Buid weather station online demo to show how to use circuitpython EPD and Azure IOT : 2021 BluejazzCHN, written for Adafruit Industries
 
