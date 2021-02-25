@@ -10,7 +10,7 @@
     * Weather forecast:http://api.caiyunapp.com/  this link use http, not use TLS, please pay an attention.
     * IOT: azure.com  this link us https support TLS meet the requirement of Azure IotHub
 ### Comment:
-    * Connect weather service and IOT service using API, because adafruit_esp32SPI only one TLS connection. 
+    * Connect weather service and IOT service using API, because adafruit_esp32SPI only support one TLS connection currently. 
     * if exceed one you will get OSError 23, so in this demo connect weahter service with http, and connect IOT service with https.
 ### Libs:
     * adafruit_ssd1681 for EPD driver
